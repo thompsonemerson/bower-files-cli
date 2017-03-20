@@ -30,6 +30,9 @@ yard add -D bower-files-cli
 
     $ bower-files-cli --js www/scripts --jsname scripts
       # www/scripts/scripts.min.js
+    
+    $ bower-files-cli --css www/styles --jsname styles
+      # www/styles/styles.min.js
 ```
 
 ### License
