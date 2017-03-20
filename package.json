@@ -1,0 +1,38 @@
+{
+  "name": "bower-files-cli",
+  "version": "1.0.0",
+  "description": "Getting all main bower files using CLI",
+  "main": "./bin/cli.js",
+  "license": "MIT",
+  "author": {
+    "name": "Emerson Thompson",
+    "email": "thompson.emerson@gmail.com",
+    "url": "http://emersonthompson.com.br"
+  },
+  "repository": "https://github.com/thompsonemerson/bower-files-cli",
+  "bugs": {
+    "url": "https://github.com/thompsonemerson/bower-files-cli/issues"
+  },
+  "homepage": "https://github.com/thompsonemerson/bower-files-cli#README",
+  "bin": {
+    "bower-files-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bower",
+    "files",
+    "dependencies",
+    "cli",
+    "scripts",
+    "npm"
+  ],
+  "devDependencies": {
+    "bower-files": "^3.14.1",
+    "concat": "^3.0.0",
+    "cssmin": "^0.4.3",
+    "minimist": "^1.2.0",
+    "uglify-js": "^2.8.14"
+  }
+}
