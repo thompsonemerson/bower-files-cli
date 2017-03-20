@@ -28,7 +28,7 @@ yard add -D bower-files-cli
       # dist/js/libs.min.js
       # dist/css/libs.min.css
 
-    $ banner-cli --js www/scripts --jsname scripts
+    $ bower-files-cli --js www/scripts --jsname scripts
       # www/scripts/scripts.min.js
 ```
 
