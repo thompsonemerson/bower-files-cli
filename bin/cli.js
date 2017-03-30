@@ -15,8 +15,8 @@ let styles = lib.ext('css').files
 let opts = {
 	'js': (argv.js) ? argv.js : false,
 	'css': (argv.css) ? argv.css : false,
-	'jsname': (argv.jsname && argv.jsname !== true) ? argv.jsname : 'libs',
-	'cssname': (argv.cssname && argv.cssname !== true) ? argv.cssname : 'libs'
+	'jsname': (argv.jsname && argv.jsname !== true) ? argv.jsname : 'vendor',
+	'cssname': (argv.cssname && argv.cssname !== true) ? argv.cssname : 'vendor'
 }
 
 if (argv.v || argv.version) {
@@ -32,15 +32,15 @@ if (argv.h || argv.help) {
   Options:
     --js               Define output js file (default dist/js)
     --css              Define output css file (default dist/css)
-    --jsname           Define output js name file (default libs.min.js)
-    --jscss            Define output css name file (default libs.min.css)
+    --jsname           Define output js name file (default vendor.min.js)
+    --jscss            Define output css name file (default vendor.min.css)
     -h, --help         Display help information
     -v, --version      Output version
 
   Examples:
     $ bower-files-cli --js --css
-      # dist/js/libs.min.js
-      # dist/css/libs.min.css
+      # dist/js/vendor.min.js
+      # dist/css/vendor.min.css
 
     $ banner-cli --js www/scripts --jsname scripts
       # www/scripts/scripts.min.js
